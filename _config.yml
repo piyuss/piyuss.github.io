@@ -1,19 +1,19 @@
 # Site wide configuration
 
-title: Piyush Pandey's portfolio website
+title: Site Title
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
-  name: Piyush Pandey
+  name: Your Name
   avatar: bio-photo.jpg
-  bio: "Come up with a description?"
-  email: ppandey4@ncsu.edu
+  bio: "A brief description of yourself."
+  email: #emailaddress
   # Do not include the @ symbol in your Twitter username
   twitter: #username
   linkedin: #username
-  github: piyuss
+  github: #username
   orcid: # ID Number (ex. 0000-0000-0000-0000)
   researchgate: #username
   mendeley: #username
@@ -72,5 +72,3 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-
-theme: jekyll-theme-slate
