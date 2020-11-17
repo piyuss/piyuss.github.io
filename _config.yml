@@ -13,7 +13,7 @@ owner:
   # Do not include the @ symbol in your Twitter username
   twitter: #username
   linkedin: #username
-  github: #username
+  github: piyuss #username
   orcid: # ID Number (ex. 0000-0000-0000-0000)
   researchgate: #username
   mendeley: #username
@@ -21,7 +21,7 @@ owner:
     plus: #username
     analytics:
     verify:
-    scholar: #id
+    scholar: O1qUwKcAAAAJ #id
   facebook: #username
   instagram: #username
   bing-verify:
