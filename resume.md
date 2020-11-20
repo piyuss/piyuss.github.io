@@ -1,8 +1,6 @@
 ---
 layout: resume
 ---
-## Currently
-
 PhD student
 Department of Biological Systems Engineering
 Department of Forestry and Environmental Resources
