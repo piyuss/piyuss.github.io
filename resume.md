@@ -1,13 +1,6 @@
 ---
 layout: resume
 ---
-##  Currently
-
-PhD student\
-Department of Biological Systems Engineering\
-Department of Forestry and Environmental Resources\
-North Carolina State University
-
 ## Education
 
 `1990 - 1994`
