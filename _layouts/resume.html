@@ -6,10 +6,33 @@
 <head>
 {% include _cvhead.html %}
 
+<style>
+.container { 
+  height: 20px;
+  position: relative;
+  border: 3px solid green; 
+}
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+</style>
+    
 </head>
 
 <body class="page">
+    
+<div class="container">
+  <div class="vertical-center">
+    <button>Centered Button</button>
+  </div>
+</div>
+
 
 {% include _browser-upgrade.html %}
 
