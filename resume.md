@@ -3,7 +3,10 @@ layout: resume
 ---
 ## Currently
 
-Current Position Description
+PhD student
+Department of Biological Systems Engineering
+Department of Forestry and Environmental Resources
+North Carolina State University
 
 ## Education
 
