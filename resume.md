@@ -5,13 +5,13 @@ title: Curriculum Vitae
 ## Education
 
 `2010 - 2014`
-__Tribhuvan University\
-Kathmnandu, Nepal__ 
+__Tribhuvan University  
+Kathmnandu, Nepal__     
 Bachelor's degree in Mechanical Engineering
 
 `2016 - 2017`
-__University of Nebraska-Lincoln\  
-Lincoln, NE__
+__University of Nebraska-Lincoln    
+Lincoln, NE__     
 MS in Agricultural and Biological Systems Engineering 
 
 ## Awards
