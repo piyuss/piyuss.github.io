@@ -1,16 +1,16 @@
 ---
 layout: resume
-title: Resume
+title: Curriculum Vitae
 ---
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
+`2010 - 2014`
+__Tribhuvan University\ Kathmnandu, Nepal__
+Bachelor's degree in Mechanical Engineering
 
-`1995 - 1997`
-__University Name__
-Degree Awarded 
+`2016 - 2017`
+__University of Nebraska-Lincoln \ Lincoln, NE__
+MS in Agricultural and Biological Systems Engineering 
 
 ## Awards
 
