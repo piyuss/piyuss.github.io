@@ -6,7 +6,7 @@ title: Curriculum Vitae
 
 `2019 - Present`
 __North Carolina State University__   
-Raleigh, NC__     
+Raleigh, NC        
 Dual PhD in Biological and Agricultural Engineering &    
 Forestry and Environmental Resources
 
