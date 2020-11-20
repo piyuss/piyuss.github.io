@@ -1,3 +1,4 @@
 ---
 layout: statements
+title: Documents
 ---
