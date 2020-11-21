@@ -15,8 +15,7 @@ category: presentation
 </section>
 
 <section data-markdown>
-## HTML or Markdown
-Reveal.js works with either. Use whatever you are more comfortable with.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cHQ69PH7pFI/0.jpg)](https://www.youtube.com/watch?v=cHQ69PH7pFI)
 
 </section>
 
