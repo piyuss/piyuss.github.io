@@ -23,17 +23,17 @@ Bachelor's degree in Mechanical Engineering
 
 ## Awards
 
-`2012`
-Name of Award, Organization 
+`2019`
+University Graduate Fellowship, North Carolina State University
 
 ## Publications
 
-<!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+A list is also available [online](https://scholar.google.com/citations?user=O1qUwKcAAAAJ&hl=en) 
 
 ### Journals
 
-`1994`
-Article Title, Journal Title
+`2017`
+__Pandey, P.__, Ge, Y., Stoerger, V., & Schnable, J. C. (2017). __High throughput in vivo analysis of plant leaf chemical properties using hyperspectral imaging.__ Frontiers in plant science, 8, 1348.
 
 `1994`
 Article Title, Journal Title
