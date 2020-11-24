@@ -10,7 +10,8 @@ Hello! I am a doctoral student at North Carolina State University working toward
 
 __Hyperspectral image analysis for phenotyping of loblolly pine__    
 
-![image](/images/data_acquisition.png)
+![image](/images/data_acquisition.png)    
+
 In this project, we are studying the possibility of detecting biological stress in loblolly pine seedlings using VIS-NIR imaging. In the picture, you can see a diseased pine seedling infected with *Fusarium* rust on the left and the hyperspectral imaging setup on the right. Our experiment with *Fusarium* uses data from 2500 seedlings from 87 families!
 
 __Robots for automated controlled pollination__      
