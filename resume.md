@@ -28,15 +28,19 @@ University Graduate Fellowship, North Carolina State University
 
 ## Publications
 
-A list is also available [online](https://scholar.google.com/citations?user=O1qUwKcAAAAJ&hl=en) 
+A complete list is also available at [Google Scholar.](https://scholar.google.com/citations?user=O1qUwKcAAAAJ&hl=en) 
 
-### Journals
+### Journals    
+
+`2018`
+Liang, Z., __Pandey, P.__, Stoerger, V., Xu, Y., Qiu, Y., Ge, Y., & Schnable, J. C. (2018). __Conventional and hyperspectral time-series imaging of maize lines widely used in field trials.__ Gigascience, 7(2), gix117. 
+
+
 
 `2017`
-__Pandey, P.__, Ge, Y., Stoerger, V., & Schnable, J. C. (2017). __High throughput in vivo analysis of plant leaf chemical properties using hyperspectral imaging.__ Frontiers in plant science, 8, 1348.
+__Pandey, P.__, Ge, Y., Stoerger, V., & Schnable, J. C. (2017). __High throughput in vivo analysis of plant leaf chemical properties using hyperspectral imaging.__ Frontiers in plant science, 8, 1348.    
 
-`1994`
-Article Title, Journal Title
+
 
 ### Books
 
