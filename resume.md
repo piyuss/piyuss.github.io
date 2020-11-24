@@ -26,6 +26,9 @@ Bachelor's degree in Mechanical Engineering
 `2019`
 University Graduate Fellowship, North Carolina State University
 
+`2018`
+Graduate School Research Fellowship, University of Georgia
+
 ## Publications
 
 A complete list is also available at [Google Scholar.](https://scholar.google.com/citations?user=O1qUwKcAAAAJ&hl=en) 
@@ -42,15 +45,6 @@ __Pandey, P.__, Ge, Y., Stoerger, V., & Schnable, J. C. (2017). __High throughpu
 
 
 
-### Books
-
-`1994`
-Book Title, Journal Title
-
-`1994`
-Book Title, Journal Title
-
-
 ## Presentations
 
 `1994`
@@ -60,13 +54,15 @@ Presentation Title, Conference, <a href="https://MyWebsite.tld/presentation1">Li
 ## Occupation
 
 `Current`
-__Current Job Title__, Current Employer 
+__Graduate Research and Teaching Assistant__, Department of Biological and Agricultural Engineering, North Carolina State University 
 
 - Task
 - Task
 
-`1994-1996`
-__Current Job Title__, Current Employer 
+`2018-2019`
+__Graduate Research Assistant__, University of Georgia 
+
+
 
 - Task
 - Task
