@@ -42,34 +42,3 @@ Liang, Z., __Pandey, P.__, Stoerger, V., Xu, Y., Qiu, Y., Ge, Y., & Schnable, J.
 `2017`
 __Pandey, P.__, Ge, Y., Stoerger, V., & Schnable, J. C. (2017). __High throughput in vivo analysis of plant leaf chemical properties using hyperspectral imaging.__ Frontiers in plant science, 8, 1348.    
 
-
-
-## Presentations
-
-`1994`
-Presentation Title, Conference, <a href="https://MyWebsite.tld/presentation1">Link to Presentation</a>
-
-
-## Occupation
-
-`Current`
-__Graduate Research and Teaching Assistant__, Department of Biological and Agricultural Engineering, North Carolina State University 
-
-- Task
-- Task
-
-`2018-2019`
-__Graduate Research Assistant__, University of Georgia 
-
-
-
-- Task
-- Task
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
-
-
