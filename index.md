@@ -4,7 +4,7 @@ excerpt: "About Me..."
 title: About me
 ---
 
-Hello! I am a doctoral student at North Carolina State University working towards a dual PhD in Engineering and Forestry. I have a Bachelor's degree in Mechanical Engineering and a Master's degree in Biological and Agricultural Systems Engineering. I am interested in the application of computer vision and robotics to biological systems. 
+Hello! I am a doctoral student at North Carolina State University working towards a dual PhD in Engineering and Forestry. I work on the application of computer vision and robotics to biological systems. 
 
 ## Current Projects:
 
