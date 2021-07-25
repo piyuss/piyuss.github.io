@@ -5,7 +5,7 @@ title: About me
 ---
 
 Hello! I am a doctoral student at North Carolina State University working towards a dual PhD in Engineering and Forestry. I work on the application of computer vision and robotics to biological systems. 
-```html
+
 <html>
 	<head>
 		<link rel="stylesheet" href="css/reveal.css">
@@ -24,7 +24,7 @@ Hello! I am a doctoral student at North Carolina State University working toward
 		</script>
 	</body>
 </html>
-```
+
 
 ## Current Projects:
 
