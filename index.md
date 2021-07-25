@@ -14,8 +14,13 @@ Hello! I am a doctoral student at North Carolina State University working toward
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+<section data-markdown>
+	<script type="text/template">
+		## Page title
+
+		A paragraph with some text and a [link](https://hakim.se).
+	</script>
+</section>
 			</div>
 		</div>
 		<script src="js/reveal.js"></script>
