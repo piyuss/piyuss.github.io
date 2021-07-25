@@ -7,8 +7,6 @@ transition: convex
 tags: [presentation]
 category: presentation
 ---
-
----
 <section data-markdown>
   <textarea data-template>
     ## Reveal.js and Jekyll Academic
