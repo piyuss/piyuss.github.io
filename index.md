@@ -5,15 +5,25 @@ title: About me
 ---
 
 Hello! I am a doctoral student at North Carolina State University working towards a dual PhD in Engineering and Forestry. I work on the application of computer vision and robotics to biological systems. 
-
 ```html
-<section data-markdown>
-	<script type="text/template">
-		## Page title
-
-		A paragraph with some text and a [link](https://hakim.se).
-	</script>
-</section>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize();
+		</script>
+	</body>
+</html>
 ```
 
 ## Current Projects:
