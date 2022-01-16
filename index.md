@@ -13,7 +13,7 @@ __Hyperspectral image analysis for phenotyping of loblolly pine__
 ![image](/images/data_acquisition.png)    
 
 
-In this project, we are studying the possibility of detecting biological stress in loblolly pine seedlings using VIS-NIR imaging. In the picture, you can see a diseased pine seedling infected with fusiform rust on the left and the hyperspectral imaging setup on the right. Our experiment with fusiform data from 2500 seedlings from 87 families! You can read more about these projects [here](https://elibrary.asabe.org/abstract.asp?aid=51616) and [here](https://elibrary.asabe.org/abstract.asp?aid=51561).
+In this project, we are studying the possibility of detecting biological stress in loblolly pine seedlings using VIS-NIR imaging. In the picture, you can see a diseased pine seedling infected with fusiform rust on the left and the hyperspectral imaging setup on the right. Our experiment with fusiform data from 2500 seedlings from 87 families. You can read more about these projects [here](https://elibrary.asabe.org/abstract.asp?aid=51616) and [here](https://elibrary.asabe.org/abstract.asp?aid=51561).
 
 In this project, we are studying the possibility of detecting stress in loblolly pine seedlings using VIS-NIR imaging. In the picture, you can see a diseased pine seedling infected with *Fusarium* rust on the left and the hyperspectral imaging setup on the right. Our experiment with *Fusarium* uses data from 2500 seedlings from 87 families! You can read more about these projects [here](https://elibrary.asabe.org/abstract.asp?aid=51616) and [here](https://elibrary.asabe.org/abstract.asp?aid=51561).
 
