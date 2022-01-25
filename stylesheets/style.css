@@ -376,10 +376,30 @@ publ_content{
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 4;
-  grid-row-end: 16;
+  grid-row-end: 18;
+}
+/*end..........publication page .............................................................end*/
+
+/*start..........presentations page ..................................................start*/
+presentation_block{
+  display:flex;  
+  padding: 5px;
+  margin: 35px;
+  background-color: lightcoral;
 }
 
+p.ppt_text{
+  background-color: rgb(219, 218, 218);
+  padding:35px;
+  max-width: 400px;
+  max-height: 500px;
+  margin: 0px;
+}
 
+media.ppt_text{
+  background-color: rgb(219, 218, 218);  
+  max-width: 600px;
+  max-height: 500px;  
+}
 
-
-/*end..........publication page .............................................................end*/
+/*end..........presentations page .......................................................end*/
