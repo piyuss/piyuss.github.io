@@ -386,7 +386,7 @@ presentation_block{
   display:flex;  
   padding: 5px;
   margin: 35px;
-  background-color: lightcoral;
+  background-color: rgb(219, 218, 218);
 }
 
 p.ppt_text{
