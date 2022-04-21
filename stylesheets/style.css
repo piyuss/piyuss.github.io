@@ -20,7 +20,7 @@ body{
   grid-template-columns: 1fr 250px 750px 1fr;
   padding: 0;
   margin: 0;
-  grid-template-rows: repeat(20, 100px);
+  grid-template-rows: repeat(20, 125px);
   background-image: url(/img/DJI_0048.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
