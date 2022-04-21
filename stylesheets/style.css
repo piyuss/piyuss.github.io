@@ -28,6 +28,7 @@ body{
 
 }
 
+
 .cursive{
   grid-column-start: 2;
   grid-column-end: span 2;
@@ -63,6 +64,14 @@ central{
   grid-row-end: 16;
   background-color: #f6f1ef;
   
+}
+/* Change this for different lengths in different pages*/
+central_presentations{
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 3;
+  grid-row-end: span 17;
+  background-color: #f6f1ef;  
 }
 
 header{
@@ -363,6 +372,20 @@ footer{
   grid-column-end: 4;
   grid-row-start: span 1;
   grid-row-end: 16;
+  background-color: #f2ebe8;   
+  border-style: solid;
+  border-color:#ddd8d5;
+  border-width: 1px; 
+  text-align: center;
+  align-self: center;
+}
+
+footer_presentations{
+  padding: 5px;  
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: span 1;
+  grid-row-end: 20;
   background-color: #f2ebe8;   
   border-style: solid;
   border-color:#ddd8d5;
