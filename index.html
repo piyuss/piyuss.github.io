@@ -97,6 +97,10 @@
                     <projectRowItem2>
                         <p>
                             This is a project where I am using indoor greenhouse images to create synthetic field images to train object detection models. The detection of individual plants within field images is critical for many applications in precision agriculture and research. Computer vision models for object detection, while often highly accurate, require large amounts of labeled data for training, something that is not readily available for most plants. To address the challenge of creating large datasets with accurate labels, we used indoor images of maize plants to create synthetic field images with automatically derived bounding box labels, enabling the generation of thousands of synthetic images without any manual labeling. Training an object detection model (Faster R-CNN) exclusively on synthetic images led to a mean average precision (mAP) value of 0.533 when the model was evaluated on pre-processed real plot images. When fine-tuned with a small number of real plot images, the model pre-trained on the synthetic images (mAP=0.884) outperformed the model that was not pre-trained.
+
+                            <br>
+
+                            In the image, the top half shows a greenhouse top view image before and after segmentation of the plant. The lower panel shows a (different) plant image segmented from the greenhouse image and placed onto a new background with and without illumination correction. The synthetic image is then created by placing multiple such segmented plants onto a field background. The synthetic image is then used to train a deep learning model for object detection.
                         </p>
                     </projectRowItem2>
                 </projectRow>
