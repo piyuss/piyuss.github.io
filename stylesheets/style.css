@@ -18,9 +18,44 @@ body{
   /* background-color: rgb(236, 187, 154); */
   display: grid;
   grid-template-columns: 1fr 250px 750px 1fr;
+  /* grid-template-columns: 1fr 375px 1125px 1fr; */
   padding: 0;
   margin: 0;
-  grid-template-rows: repeat(20, 100px);
+  grid-template-rows: repeat(70, 100px);
+  background-image: url(/img/DJI_0048.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+body.body_presentation{
+  color: #575655;/* font color */
+  /* background-color: rgb(236, 187, 154); */
+  display: grid;
+  grid-template-columns: 1fr 250px 750px 1fr;
+  /* grid-template-columns: 1fr 375px 1125px 1fr; */
+  padding: 0;
+  margin: 0;
+  /* grid-template-rows: repeat(70, 100px); */
+  grid-template-rows: repeat(32, 100px);
+  background-image: url(/img/DJI_0048.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+body.body_publication{
+  color: #575655;/* font color */
+  /* background-color: rgb(236, 187, 154); */
+  display: grid;
+  grid-template-columns: 1fr 250px 750px 1fr;
+  /* grid-template-columns: 1fr 375px 1125px 1fr; */
+  padding: 0;
+  margin: 0;
+  /* grid-template-rows: repeat(70, 100px); */
+  grid-template-rows: repeat(23, 100px);
   background-image: url(/img/DJI_0048.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,7 +105,17 @@ central_presentations{
   grid-column-start: 2;
   grid-column-end: span 2;
   grid-row-start: 3;
-  grid-row-end: span 17;
+  grid-row-end: span 28;
+  background-color: #f6f1ef;  
+}
+
+/* add 3 to footer from central  */
+
+central_publication{
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 3;
+  grid-row-end: span 18;
   background-color: #f6f1ef;  
 }
 
@@ -138,7 +183,7 @@ main{
   grid-column-start: 3;
   grid-column-end: span 1;
   grid-row-start: 4;
-  grid-row-end: span 3;
+  grid-row-end: span 5;
   padding-right: 20px;
 }
 
@@ -159,9 +204,13 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;  
+  /* border-top: 1px solid #ccc;   */
   margin: 1em 0;
   padding: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+  background-color: rgba(121, 119, 119, 0.608);
 }
 
 photoArea{
@@ -170,11 +219,53 @@ photoArea{
   grid-column-start: 2;
   grid-column-end: span 1;
   grid-row-start: 4;
-  grid-row-end: span 10;
+  grid-row-end: span 5;
   display:flex;
   flex-direction: column;
   justify-content: flex-start;  
   align-content: flex-start;  
+}
+projectArea{
+  /* background-color: rgba(202, 202, 202, 0.746); */
+  /* background-color: rgba(202, 202, 202, 0.746); */
+  background-color: #f6f1ef;
+  padding: 15px;
+  grid-column-start: 2;
+  grid-column-end: span 2;
+  grid-row-start: 9;
+  grid-row-end: span 61;
+  display: flex;
+  flex-direction: column;
+  border-top: #838383ae;
+  border-top-width: 1px;
+  border-top-style: solid;
+
+
+  /* padding-right: 20px; */
+}
+ProjectRowContainer{
+  display:flex;
+  flex-direction: column;
+  padding:5px;
+}
+projectRow{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  padding: 0;
+  margin: 0;
+  /* grid-template-rows: repeat(20, 100px); */
+}
+projectRowItem1{
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  /* padding: 10px; */
+  margin: 0;
+}
+projectRowItem2{
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  /* padding: 10px; */
+  margin: 0;
 }
 
 photoArea img{
@@ -371,7 +462,7 @@ footer{
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: span 1;
-  grid-row-end: 16;
+  grid-row-end: 70;
   background-color: #f2ebe8;   
   border-style: solid;
   border-color:#ddd8d5;
@@ -380,12 +471,37 @@ footer{
   align-self: center;
 }
 
+/* footer{
+  padding: 0px;   
+  background-color: #f2ebe8;   
+  border-style: solid;
+  border-color:#ddd8d5;
+  border-width: 1px; 
+  text-align: center;
+  align-self: center;
+  width: 1000px;
+  margin-top: 50px;
+} */
+
 footer_presentations{
   padding: 5px;  
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: span 1;
-  grid-row-end: 20;
+  grid-row-end: 31;
+  background-color: #f2ebe8;   
+  border-style: solid;
+  border-color:#ddd8d5;
+  border-width: 1px; 
+  text-align: center;
+  align-self: center;
+}
+footer_publication{
+  padding: 5px;  
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: span 1;
+  grid-row-end: 21;
   background-color: #f2ebe8;   
   border-style: solid;
   border-color:#ddd8d5;
@@ -410,6 +526,14 @@ presentation_block{
   padding: 5px;
   margin: 35px;
   background-color: rgb(219, 218, 218);
+}
+
+presentation_content{
+  padding: 35px;  
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 28;
 }
 
 p.ppt_text{
