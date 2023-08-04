@@ -39,7 +39,7 @@ body.body_presentation{
   margin: 0;
   /* grid-template-rows: repeat(70, 100px); */
   grid-template-rows: repeat(32, 100px);
-  background-image: url(/img/DJI_0048.png);
+  background-image: url(/img/DJI_0048.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -56,7 +56,7 @@ body.body_publication{
   margin: 0;
   /* grid-template-rows: repeat(70, 100px); */
   grid-template-rows: repeat(21, 100px);
-  background-image: url(/img/DJI_0048.png);
+  background-image: url(/img/DJI_0048.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
