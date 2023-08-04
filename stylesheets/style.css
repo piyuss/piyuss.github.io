@@ -293,6 +293,9 @@ projectRowItem2{
   
   
 }
+projectRowItem1 img{
+  padding:2px;
+}
 
 photoArea img{
   max-width: 180px;
