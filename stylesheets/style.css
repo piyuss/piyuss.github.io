@@ -21,7 +21,7 @@ body{
   /* grid-template-columns: 1fr 375px 1125px 1fr; */
   padding: 0;
   margin: 0;
-  grid-template-rows: repeat(70, 100px);
+  grid-template-rows: repeat(95, 100px);
   background-image: url(/img/DJI_0048.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -242,7 +242,7 @@ projectArea{
   grid-column-start: 2;
   grid-column-end: span 2;
   grid-row-start: 9;
-  grid-row-end: span 61;
+  grid-row-end: span 86;
   display: flex;
   flex-direction: column;
   border-top: #838383ae;
@@ -486,7 +486,7 @@ footer{
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: span 1;
-  grid-row-end: 70;
+  grid-row-end: 95;
   background-color: #f2ebe8;   
   border-style: solid;
   border-color:#ddd8d5;
