@@ -1,0 +1,1 @@
+Studying cotton plant architecture through object detection using deep learning models
