@@ -55,13 +55,22 @@ body.body_publication{
   padding: 0;
   margin: 0;
   /* grid-template-rows: repeat(70, 100px); */
-  grid-template-rows: repeat(23, 100px);
+  grid-template-rows: repeat(21, 100px);
   background-image: url(/img/DJI_0048.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
 }
+
+/* .project_img{
+
+  vertical-align: middle;
+  align-items: center;
+  align-self: center;
+  
+
+} */
 
 
 .cursive{
@@ -260,12 +269,17 @@ projectRowItem1{
   grid-column-end: span 1;
   /* padding: 10px; */
   margin: 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
+
 }
 projectRowItem2{
   grid-column-start: 2;
   grid-column-end: span 1;
   /* padding: 10px; */
   margin: 0;
+  
 }
 
 photoArea img{
