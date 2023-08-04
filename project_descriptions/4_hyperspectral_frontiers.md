@@ -1,3 +1,4 @@
+In-vivo measurement of leaf chemical properties using hyperspectral imaging
 
 In 2016, I worked with the newly established Lemnatec Plant Phenotyping platform at UNL to calibrate the
 hyperspectral images and use maize and soybean images to predict leaft chemical properties. Among all the chemical properties investigated, water content was predicted with the highest accuracy

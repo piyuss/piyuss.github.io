@@ -87,6 +87,45 @@
                 <hr>
             </ProjectRowContainer>
 
+            <ProjectRowContainer>
+                <h1>Hyperspectral imaging of loblolly pine seedlings to identify disease resistance</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img"  width="354"  src="project_descriptions/8_loblolly_rust.png"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            Loblolly pine is an economically important timber species in the United States, with almost 1 billion seedlings produced annually. The most significant disease affecting this species is fusiform rust, caused by Cronartium quercuum f. sp. fusiforme. Testing for disease resistance in the greenhouse involves artificial inoculation of seedlings followed by visual inspection for disease incidence. An automated, high-throughput phenotyping method could improve both the efficiency and accuracy of the disease screening process. This study investigates the use of hyperspectral imaging for the detection of diseased seedlings. A nursery trial comprising families with known in-field rust resistance data was conducted, and the seedlings were artificially inoculated with fungal spores. Hyperspectral images in the visible and near-infrared region (400–1000 nm) were collected six months after inoculation. The disease incidence was scored with traditional methods based on the presence or absence of visible stem galls. The seedlings were segmented from the background by thresholding normalized difference vegetation index (NDVI) images, and the delineation of individual seedlings was achieved through object detection using the Faster RCNN model. Plant parts were subsequently segmented using the DeepLabv3+ model. The trained DeepLabv3+ model for semantic segmentation achieved a pixel accuracy of 0.76 and a mean Intersection over Union (mIoU) of 0.62. Crown pixels were segmented using geometric features. Support vector machine discrimination models were built for classifying the plants into diseased and non-diseased classes based on spectral data, and balanced accuracy values were calculated for the comparison of model performance. Averaged spectra from the whole plant (balanced accuracy = 61%), the crown (61%), the top half of the stem (77%), and the bottom half of the stem (62%) were used. A classification model built using the spectral data from the top half of the stem was found to be the most accurate, and resulted in an area under the receiver operating characteristic curve (AUC) of 0.83.
+
+                        </p>
+                        <p>
+                          This is the abstract of a published article that can be accessed <a href="https://www.mdpi.com/2072-4292/13/18/3595" target="_blank">here</a>.
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+            <ProjectRowContainer>
+                <h1>Robotic pollination for controlled crosses in loblolly pine</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/12_robotic_pollination.png"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            As part of my PhD research, I worked on the development of a prototype pollinating robot comprised of a parallel manipulator with a pollen injecting mechanism and a perception system equipped with a stereovision camera. From preliminary tests conducted with the prototype, it was quickly identified that the most important problem in delivering pollen into exclusion bags was the successful insertion of the pollinator needle into the bag. A ``claw'' mechanism with a stabilizing link and a pollinator link was developed for this purpose. A simple spring-based mechanism for the verification of needle insertion was also developed and tested. The perception system is aimed at delivering pollen inside an exclusion bag once the pollinating device has been brought into close proximity of the bag such that the needle can be inserted with manipulator motion within its workspace. In order to recognize the location of the target exclusion bag, an object detection model was trained for the detection of the bags. The depth information from the stereovision camera was combined with the bounding box data obtained from the bag detection model to calculate the position of the exclusion bag. The software for image acquisition and processing was developed using the Robot Operating System (ROS).
+
+                            </p>
+                            <p> More details about this project can be found <a href="https://elibrary.asabe.org/abstract.asp?aid=53408" target="_blank">here</a> and <a href="https://repository.lib.ncsu.edu/bitstream/handle/1840.20/40064/etd.pdf?sequence=1" target="_blank">here</a>.
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+            
+
             <!-- 2 -->
             <ProjectRowContainer>
                 <h1>Robotic manipulation of sweet potato slips</h1>
@@ -102,7 +141,7 @@
                 </projectRow>
                 <hr>
             </ProjectRowContainer>
-
+            
             <!-- 3 -->
             <ProjectRowContainer>
                 <h1>(Tabletop) raspberry cane pruning robot</h1>
@@ -139,6 +178,48 @@
                     <projectRowItem2>
                         <p>
                              This study investigated \textit{in situ} hyperspectral imaging of hydroponic lettuce for predicting nutrient concentrations and identifying nutrient deficiencies for: nitrogen (N), phosphorous (P), potassium (K), calcium (Ca), magnesium (Mg), and {\color{red}{sulphur}} (S). Plants were imaged using a hyperspectral line scanner at six and eight weeks after transplanting, then plant tissue was sampled, and nutrient concentrations measured. Partial least squares regression (PLSR) models were developed to predict nutrient concentrations for each nutrient individually (PLS1) and for all six nutrient concentrations (PLS2). Several binary classification models were also developed to predict nutrient deficiencies. The PLS1 and PLS2 models predicted nutrient concentrations with R^2 values from 0.60-0.88 for N, P, K, and S, while results for Ca and Mg yielded R^2 values of 0.12-0.34, for both harvest dates. Similarly, plants deficient in N, P, K, and S were classified more accurately compared to plants deficient in Ca and Mg for both harvest dates, with F1 values (F-scores) ranging from 0.71 to 1.00, with the exception of K which had F1 scores of 0.40-0.67. Overall, results indicate that both leaf tissue nutrient concentration and nutrient deficiencies can be predicted using hyperspectral data collected in-vivo. 
+                             </p>
+                             A journal article reporting these findings can be accessed <a href="https://www.sciencedirect.com/science/article/pii/S1537511023001083?casa_token=8MKogMyWSPgAAAAA:6wBRJ5UEYiLxFDpHyD0JLI3no5EbjHP2696_fW5XqVB93JDNeirz5eDWVOuB-Zb7ElEAM-2J" target="_blank">here</a>.
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+            <ProjectRowContainer>
+                <h1>Studying cold tolerance loblolly pine seedlings using hyperspectral imaging</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/9_loblolly_cold_tolerance.png"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            The most important climatic variable influencing growth and survival of loblolly pine is the yearly average minimum winter temperature (MWT) at the seed source origin, and it is used to guide the transfer of improved seed lots throughout the species’ distribution. This study presents a novel approach for the assessment of freeze-induced damage and prediction of MWT at seed source origin of loblolly pine seedlings using hyperspectral imaging. A population comprising 98 seed lots representing a wide range of MWT at seed source origin was subjected to an artificial freeze event. The visual assessment of freeze damage and MWT were evaluated at the family level and modeled with hyperspectral image data combined with chemometric techniques. Hyperspectral scanning of the seedlings was conducted prior to the freeze event and on four occasions periodically after the freeze. A significant relationship (R2 = 0.33; p < .001) between freeze damage and MWT was observed. Prediction accuracies of freeze damage and MWT based on hyperspectral data varied among seedling portions (full-length, top, middle, and bottom portion of aboveground material) and scanning dates. Models based on the top portion were the most predictive of both freeze damage and MWT. The highest prediction accuracy of MWT [RPD (ratio of prediction to deviation) = 2.12, R2 = 0.78] was achieved using hyperspectral data obtained prior to the freeze event. Adoption of this assessment method would greatly facilitate the characterization and deployment of well-adapted loblolly pine families across the landscape. 
+
+                            </p>
+                            <p>
+                                This is the abstract of a journal article that can be found <a href="https://academic.oup.com/forestscience/article/67/3/321/6208898" target="blank"> here.</a>
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+            <ProjectRowContainer>
+                <h1>In-vivo measurement of leaf chemical properties using hyperspectral imaging
+                </h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/4_hyperspectral_frontiers.png"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            In 2016, I worked with the newly established Lemnatec Plant Phenotyping platform at UNL to calibrate the
+                            hyperspectral images and use maize and soybean images to predict leaft chemical properties. Among all the chemical properties investigated, water content was predicted with the highest accuracy [R2 = 0.93 and RPD (Ratio of Performance to Deviation) = 3.8]. All macronutrients were also quantified satisfactorily (R2 from 0.69 to 0.92, RPD from 1.62 to 3.62), with N predicted best followed by P, K, and S. 
+                             The micronutrients group showed lower prediction accuracy (R2 from 0.19 to 0.86, RPD from 1.09 to 2.69) than the macronutrient groups. Cu and Zn were best predicted, followed by Fe and Mn. Na and B were the only two properties that hyperspectral imaging was not able to quantify satisfactorily (R2 < 0.3 and RPD < 1.2). You can read more about this project <a href="https://www.frontiersin.org/articles/10.3389/fpls.2017.01348/full" target="_blank">here</a>.
+                             
+                             
+                         
                         </p>
                     </projectRowItem2>
                 </projectRow>
@@ -147,10 +228,10 @@
 
                        <!-- 3 -->
                        <ProjectRowContainer>
-                        <h1>Measuring plant biomass with RGB images</h1>
+                        <h1>Measuring plant fresh biomass with RGB images</h1>
                         <projectRow>
                             <projectRowItem1>
-                                <img class = "project_img" width="354"  src="project_descriptions/4_hyperspectral_frontiers.png"> 
+                                <img class = "project_img" width="354"  src="project_descriptions/2_plant_biomass.png"> 
                             </projectRowItem1>
                             <projectRowItem2>
                                 <p>
