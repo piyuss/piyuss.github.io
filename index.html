@@ -35,20 +35,22 @@
         <!-- main content /white paper -->
         <main>
             <h1>About me</h1>
-            <p>Hello. I am an ORISE postdoctoral fellow at USDA-ARS working on plant phenotyping using deep learning methods.
+            <p>Hello. I am an ORISE postdoctoral fellow at USDA-ARS working on plant phenotyping using UAV images for 
+                maize plant phenotyping. I work with RGB and multispectral images to extract plant traits using computer
+                vision and machine learning techniques. I am also interested in developing robotic systems for 
+                agriculture and forestry applications.
                 
-                I completed my dual PhD in Engineering and Forestry at North Carolina State University. 
+                I completed my dual PhD in Engineering and Forestry from North Carolina State University in 2022. 
             </p>
 
-            <p> I have worked on projects in high-throughput phenotyping of plants using digital images and 
-                in robotic systems for forestry applications. Some of the projects are visualized
-                in the slideshow below. Please use the links to publications and presentations on the navigation bar for
-                 a more complete view of my work.
+            <p> I have worked on high-throughput phenotyping of plants using digital images and 
+                on robotic systems for forestry applications. A large part of my work with digital images has been focused on 
+                the use of hyperspectral imaging to find optical signals of plant biotic and abiotic stress. At NC State, I 
+                developed a robotic pollination system for controlled pollination in loblolly pine seed orchards. 
             </p>
-            <p> I have worked on projects in high-throughput phenotyping of plants using digital images and 
-                in robotic systems for forestry applications. Some of the projects are visualized
-                in the slideshow below. Please use the links to publications and presentations on the navigation bar for
-                 a more complete view of my work.
+            <p> On this page, you will find a brief description of my research projects with links for more information. Details on 
+                these projects are also accessible through my 
+                <a href="publications.html">publications</a> page.
             </p>
         </main>
         
@@ -70,9 +72,9 @@
        
         
         <projectArea>
-            <!-- 1 -->
+            <!-- 1 ------------------------------------------------------------------------------------------- -->
             <ProjectRowContainer>
-                <h1>Synthetic images for CNN model training</h1>
+                <h1>Synthetic images for CNN model training (2023)</h1>
                 <projectRow>
                     <projectRowItem1>
                         <img class = "project_img" width="270"  src="project_descriptions/14_synthetic_images.png"> 
@@ -85,9 +87,27 @@
                 </projectRow>
                 <hr>
             </ProjectRowContainer>
-
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+             <ProjectRowContainer>
+                <h1>Predicting lettuce nutrients using hyperspectral imaging (2021-2022)</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/10_hydroponic_lettuce.png"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                             This study investigated in situ hyperspectral imaging of hydroponic lettuce for predicting nutrient concentrations and identifying nutrient deficiencies for: nitrogen (N), phosphorous (P), potassium (K), calcium (Ca), magnesium (Mg), and {\color{red}{sulphur}} (S). Plants were imaged using a hyperspectral line scanner at six and eight weeks after transplanting, then plant tissue was sampled, and nutrient concentrations measured. Partial least squares regression (PLSR) models were developed to predict nutrient concentrations for each nutrient individually (PLS1) and for all six nutrient concentrations (PLS2). Several binary classification models were also developed to predict nutrient deficiencies. The PLS1 and PLS2 models predicted nutrient concentrations with R^2 values from 0.60-0.88 for N, P, K, and S, while results for Ca and Mg yielded R^2 values of 0.12-0.34, for both harvest dates. Similarly, plants deficient in N, P, K, and S were classified more accurately compared to plants deficient in Ca and Mg for both harvest dates, with F1 values (F-scores) ranging from 0.71 to 1.00, with the exception of K which had F1 scores of 0.40-0.67. Overall, results indicate that both leaf tissue nutrient concentration and nutrient deficiencies can be predicted using hyperspectral data collected in-vivo. 
+                             </p>
+                             A journal article reporting these findings can be accessed <a href="https://www.sciencedirect.com/science/article/pii/S1537511023001083?casa_token=8MKogMyWSPgAAAAA:6wBRJ5UEYiLxFDpHyD0JLI3no5EbjHP2696_fW5XqVB93JDNeirz5eDWVOuB-Zb7ElEAM-2J" target="_blank">here</a>.
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+    
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
             <ProjectRowContainer>
-                <h1>Hyperspectral imaging of loblolly pine seedlings to identify disease resistance</h1>
+                <h1>Hyperspectral imaging of loblolly pine seedlings to identify disease resistance (2020-2021)</h1>
                 <projectRow>
                     <projectRowItem1>
                         <img class = "project_img"  width="354"  src="project_descriptions/8_loblolly_rust.png"> 
@@ -108,8 +128,10 @@
                 <hr>
             </ProjectRowContainer>
 
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+
             <ProjectRowContainer>
-                <h1>Robotic pollination for controlled crosses in loblolly pine</h1>
+                <h1>Robotic pollination for controlled crosses in loblolly pine (2021-2022)</h1>
                 <projectRow>
                     <projectRowItem1>
                         <img class = "project_img" width="354"  src="project_descriptions/12_robotic_pollination.png"> 
@@ -126,9 +148,9 @@
                 <hr>
             </ProjectRowContainer>
 
-             <!-- 2 -->
-             <ProjectRowContainer>
-                <h1>Robotic manipulation of sweet potato slips</h1>
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+            <ProjectRowContainer>
+                <h1>Robotic manipulation of sweet potato slips (2021-2022)</h1>
                 <projectRow>
                     <projectRowItem1>
                         <img class = "project_img"  width="354"  src="project_descriptions/13_sweet_potato_slips.png"> 
@@ -142,9 +164,97 @@
                 <hr>
             </ProjectRowContainer>
 
-            <!-- 2 -->
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+
             <ProjectRowContainer>
-                <h1>Time series imaging of maize lines used in field trials</h1>
+                <h1>Downy mildew spore trap on ground rover and UAV (2021-2022)</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/11_spore_trap.png"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            I worked on creating a mobile spore trapping system to mount on a ground rover and a UAV to detect downy mildew. As shown in the image, the UAV trap was designed to be mounted on a tether. This was part of an ongoing effort at North Carolina State University to create a portable and cost effective solution for downy mildew detection in cucurbit farms.
+                            
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+
+            
+            
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+            
+
+
+
+            <ProjectRowContainer>
+                <h1>Cold tolerance of loblolly pine using hyperspectral imaging (2019-2020)</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/9_loblolly_cold_tolerance.png"> 
+
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            The most important climatic variable influencing growth and survival of loblolly pine is the yearly average minimum winter temperature (MWT) at the seed source origin, and it is used to guide the transfer of improved seed lots throughout the species’ distribution. This study presents a novel approach for the assessment of freeze-induced damage and prediction of MWT at seed source origin of loblolly pine seedlings using hyperspectral imaging. A population comprising 98 seed lots representing a wide range of MWT at seed source origin was subjected to an artificial freeze event. The visual assessment of freeze damage and MWT were evaluated at the family level and modeled with hyperspectral image data combined with chemometric techniques. Hyperspectral scanning of the seedlings was conducted prior to the freeze event and on four occasions periodically after the freeze. A significant relationship (R2 = 0.33; p < .001) between freeze damage and MWT was observed. Prediction accuracies of freeze damage and MWT based on hyperspectral data varied among seedling portions (full-length, top, middle, and bottom portion of aboveground material) and scanning dates. Models based on the top portion were the most predictive of both freeze damage and MWT. The highest prediction accuracy of MWT [RPD (ratio of prediction to deviation) = 2.12, R2 = 0.78] was achieved using hyperspectral data obtained prior to the freeze event. Adoption of this assessment method would greatly facilitate the characterization and deployment of well-adapted loblolly pine families across the landscape. 
+
+                            </p>
+                            <p>
+                                This is the abstract of a journal article that can be found <a href="https://academic.oup.com/forestscience/article/67/3/321/6208898" target="blank"> here.</a>
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+            <ProjectRowContainer>
+                <h1>Cotton plant architecture through object detection using deep learning models (2018)</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/7_cotton_3d.PNG"> 
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            In this study, I explored the use of deep learning methods for the detection of key plant organs in  cotton plants, followed by further processing of the acquired results to derive semantic information 38 about the cotton plant. As a preliminary study, the detection of cotton bolls and main stalk nodes  is studied, followed by the use of this minimal information to derive detailed information about the plant structure. The parameters that we attempt to derive include boll production per node, internodal distances, and branch angles.
+                        </p>
+                        <p>
+                            The results of this study can be accessed <a href="pdf/Cotton_deep_learning_2019.pdf" target="_blank">here</a>.
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+
+            <ProjectRowContainer>
+                <h1>Sorghum phenotypes using RGB, hyperspectral images (2017)</h1>
+                <projectRow>
+                    <projectRowItem1>
+                        <img class = "project_img" width="354"  src="project_descriptions/6_masters_thesis.PNG"> 
+                         
+
+                    </projectRowItem1>
+                    <projectRowItem2>
+                        <p>
+                            This study with sorghum images was a part of my MS thesis at UNL. I used RGB images to study relative growth rate (RGR) and water use efficiency (WUE) of a diverse panel of 300 sorghum plants of 30 genotypes, and hyperspectral images for chemical analysis of macronutrients and cell wall composition. Half of the plants from each genotype were subjected to drought stress, while the other half were left unstressed. I created models to estimate the shoot fresh and dry weights from plant projected area. RGR values for the drought-stressed plants were found to gradually lag behind the values for the unstressed plants whereas WUE values were highly variable with time. Significant effects of drought stress and genotype were observed for both RGR and WUE. Hyperspectral image data (546 nm to 1700 nm) were used for chemical analysis of macronutrients (N, P, and K), neutral detergent fiber (NDF), and acid detergent fiber (ADF) for plant samples separated into leaf and three longitudinal sections of the stem. The accuracy of the models built using the spectrometer data (350 nm to 2500 nm) of dried and ground biomass was found to be higher than the accuracy of models built using the image data. For the image data, the models for N(R2 = 0.66, RPD = 1.72), and P(R2=0.52, RPD = 1.46) were found to be satisfactory for quantitative analysis whereas the models for K, NDF, and ADF were not suitable for quantitative prediction. Models built after the separation of leaf and stem samples showed variation in the accuracy between the two groups. 
+
+                            </p>
+                            <p>
+                                Details of this study can be found in my MS thesis <a href="https://digitalcommons.unl.edu/biosysengdiss/74/" target="blank"> here.</a>
+                        </p>
+                    </projectRowItem2>
+                </projectRow>
+                <hr>
+            </ProjectRowContainer>
+
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+
+            <ProjectRowContainer>
+                <h1>Time series imaging of maize lines used in field trials (2016-2017)</h1>
                 <projectRow>
                     <projectRowItem1>
                         <img class = "project_img"  width="354"  src="project_descriptions/5_time_series.png"> 
@@ -158,10 +268,10 @@
                 </projectRow>
                 <hr>
             </ProjectRowContainer>
-            
-            <!-- 3 -->
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+
             <ProjectRowContainer>
-                <h1>(Tabletop) raspberry cane pruning robot</h1>
+                <h1>(Tabletop) raspberry cane pruning robot (2017) </h1>
                 <projectRow>
                     <projectRowItem1>
                         <img  class = "project_img" width="354"  src="project_descriptions/3_asabe_robot.png"> 
@@ -185,68 +295,10 @@
                 <hr>
             </ProjectRowContainer>
 
-            <!-- 3 -->
-            <ProjectRowContainer>
-                <h1>Predicting lettuce nutrients using hyperspectral imaging</h1>
-                <projectRow>
-                    <projectRowItem1>
-                        <img class = "project_img" width="354"  src="project_descriptions/10_hydroponic_lettuce.png"> 
-                    </projectRowItem1>
-                    <projectRowItem2>
-                        <p>
-                             This study investigated in situ hyperspectral imaging of hydroponic lettuce for predicting nutrient concentrations and identifying nutrient deficiencies for: nitrogen (N), phosphorous (P), potassium (K), calcium (Ca), magnesium (Mg), and {\color{red}{sulphur}} (S). Plants were imaged using a hyperspectral line scanner at six and eight weeks after transplanting, then plant tissue was sampled, and nutrient concentrations measured. Partial least squares regression (PLSR) models were developed to predict nutrient concentrations for each nutrient individually (PLS1) and for all six nutrient concentrations (PLS2). Several binary classification models were also developed to predict nutrient deficiencies. The PLS1 and PLS2 models predicted nutrient concentrations with R^2 values from 0.60-0.88 for N, P, K, and S, while results for Ca and Mg yielded R^2 values of 0.12-0.34, for both harvest dates. Similarly, plants deficient in N, P, K, and S were classified more accurately compared to plants deficient in Ca and Mg for both harvest dates, with F1 values (F-scores) ranging from 0.71 to 1.00, with the exception of K which had F1 scores of 0.40-0.67. Overall, results indicate that both leaf tissue nutrient concentration and nutrient deficiencies can be predicted using hyperspectral data collected in-vivo. 
-                             </p>
-                             A journal article reporting these findings can be accessed <a href="https://www.sciencedirect.com/science/article/pii/S1537511023001083?casa_token=8MKogMyWSPgAAAAA:6wBRJ5UEYiLxFDpHyD0JLI3no5EbjHP2696_fW5XqVB93JDNeirz5eDWVOuB-Zb7ElEAM-2J" target="_blank">here</a>.
-                        </p>
-                    </projectRowItem2>
-                </projectRow>
-                <hr>
-            </ProjectRowContainer>
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
 
             <ProjectRowContainer>
-                <h1>Studying cold tolerance of loblolly pine seedlings using hyperspectral imaging</h1>
-                <projectRow>
-                    <projectRowItem1>
-                        <img class = "project_img" width="354"  src="project_descriptions/9_loblolly_cold_tolerance.png"> 
-                        <img class = "project_img" width="354"  src="project_descriptions/map.png"> 
-
-                    </projectRowItem1>
-                    <projectRowItem2>
-                        <p>
-                            The most important climatic variable influencing growth and survival of loblolly pine is the yearly average minimum winter temperature (MWT) at the seed source origin, and it is used to guide the transfer of improved seed lots throughout the species’ distribution. This study presents a novel approach for the assessment of freeze-induced damage and prediction of MWT at seed source origin of loblolly pine seedlings using hyperspectral imaging. A population comprising 98 seed lots representing a wide range of MWT at seed source origin was subjected to an artificial freeze event. The visual assessment of freeze damage and MWT were evaluated at the family level and modeled with hyperspectral image data combined with chemometric techniques. Hyperspectral scanning of the seedlings was conducted prior to the freeze event and on four occasions periodically after the freeze. A significant relationship (R2 = 0.33; p < .001) between freeze damage and MWT was observed. Prediction accuracies of freeze damage and MWT based on hyperspectral data varied among seedling portions (full-length, top, middle, and bottom portion of aboveground material) and scanning dates. Models based on the top portion were the most predictive of both freeze damage and MWT. The highest prediction accuracy of MWT [RPD (ratio of prediction to deviation) = 2.12, R2 = 0.78] was achieved using hyperspectral data obtained prior to the freeze event. Adoption of this assessment method would greatly facilitate the characterization and deployment of well-adapted loblolly pine families across the landscape. 
-
-                            </p>
-                            <p>
-                                This is the abstract of a journal article that can be found <a href="https://academic.oup.com/forestscience/article/67/3/321/6208898" target="blank"> here.</a>
-                        </p>
-                    </projectRowItem2>
-                </projectRow>
-                <hr>
-            </ProjectRowContainer>
-
-            <ProjectRowContainer>
-                <h1>Sorghum phenotypes using RGB, hyperspectral images</h1>
-                <projectRow>
-                    <projectRowItem1>
-                        <img class = "project_img" width="354"  src="project_descriptions/6_masters_thesis.PNG"> 
-                         
-
-                    </projectRowItem1>
-                    <projectRowItem2>
-                        <p>
-                            This study with sorghum images was a part of my MS thesis at UNL. I used RGB images to study relative growth rate (RGR) and water use efficiency (WUE) of a diverse panel of 300 sorghum plants of 30 genotypes, and hyperspectral images for chemical analysis of macronutrients and cell wall composition. Half of the plants from each genotype were subjected to drought stress, while the other half were left unstressed. I created models to estimate the shoot fresh and dry weights from plant projected area. RGR values for the drought-stressed plants were found to gradually lag behind the values for the unstressed plants whereas WUE values were highly variable with time. Significant effects of drought stress and genotype were observed for both RGR and WUE. Hyperspectral image data (546 nm to 1700 nm) were used for chemical analysis of macronutrients (N, P, and K), neutral detergent fiber (NDF), and acid detergent fiber (ADF) for plant samples separated into leaf and three longitudinal sections of the stem. The accuracy of the models built using the spectrometer data (350 nm to 2500 nm) of dried and ground biomass was found to be higher than the accuracy of models built using the image data. For the image data, the models for N(R2 = 0.66, RPD = 1.72), and P(R2=0.52, RPD = 1.46) were found to be satisfactory for quantitative analysis whereas the models for K, NDF, and ADF were not suitable for quantitative prediction. Models built after the separation of leaf and stem samples showed variation in the accuracy between the two groups. 
-
-                            </p>
-                            <p>
-                                Details of this study can be found in my MS thesis <a href="https://digitalcommons.unl.edu/biosysengdiss/74/" target="blank"> here.</a>
-                        </p>
-                    </projectRowItem2>
-                </projectRow>
-                <hr>
-            </ProjectRowContainer>
-
-            <ProjectRowContainer>
-                <h1>In-vivo measurement of leaf chemical properties using hyperspectral imaging
+                <h1>In-vivo measurement of leaf chemical properties using hyperspectral imaging (2016-2017)
                 </h1>
                 <projectRow>
                     <projectRowItem1>
@@ -266,9 +318,9 @@
                 <hr>
             </ProjectRowContainer>
 
-                       <!-- 3 -->
-                       <ProjectRowContainer>
-                        <h1>Measuring plant fresh biomass with RGB images</h1>
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
+            <ProjectRowContainer>
+                        <h1>Measuring plant fresh biomass with RGB images (2016)</h1>
                         <projectRow>
                             <projectRowItem1>
                                 <img class = "project_img" width="354"  src="project_descriptions/2_plant_biomass.png"> 
@@ -283,41 +335,10 @@
                         <hr>
                     </ProjectRowContainer>
 
-                                    <!-- 3 -->
-                                    <ProjectRowContainer>
-                                    <h1>Downy mildew spore trap on ground rover and UAV</h1>
-                                    <projectRow>
-                                        <projectRowItem1>
-                                            <img class = "project_img" width="354"  src="project_descriptions/11_spore_trap.png"> 
-                                        </projectRowItem1>
-                                        <projectRowItem2>
-                                            <p>
-                                                I worked on creating a mobile spore trapping system to mount on a ground rover and a UAV to detect downy mildew. As shown in the image, the UAV trap was designed to be mounted on a tether. This was part of an ongoing effort at North Carolina State University to create a portable and cost effective solution for downy mildew detection in cucurbit farms.
-                                                
-                                            </p>
-                                        </projectRowItem2>
-                                    </projectRow>
-                                    <hr>
-                                </ProjectRowContainer>
+            <!-- 2 ------------------------------------------------------------------------------------------- -->
 
-                                <!-- 3 -->
-                                <ProjectRowContainer>
-                                    <h1>Studying cotton plant architecture through object detection using deep learning models</h1>
-                                    <projectRow>
-                                        <projectRowItem1>
-                                            <img class = "project_img" width="354"  src="project_descriptions/7_cotton_3d.PNG"> 
-                                        </projectRowItem1>
-                                        <projectRowItem2>
-                                            <p>
-                                                In this study, I explored the use of deep learning methods for the detection of key plant organs in  cotton plants, followed by further processing of the acquired results to derive semantic information 38 about the cotton plant. As a preliminary study, the detection of cotton bolls and main stalk nodes  is studied, followed by the use of this minimal information to derive detailed information about the plant structure. The parameters that we attempt to derive include boll production per node, internodal distances, and branch angles.
-                                            </p>
-                                            <p>
-                                                The results of this study can be accessed <a href="pdf/Cotton_deep_learning_2019.pdf" target="_blank">here</a>.
-                                            </p>
-                                        </projectRowItem2>
-                                    </projectRow>
-                                    <hr>
-                                </ProjectRowContainer>
+           
+
             
         </projectArea>
 
