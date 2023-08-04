@@ -270,6 +270,7 @@ projectRowItem1{
   /* padding: 10px; */
   margin: 0;
   display: flex;
+  flex-direction: column;
   align-content: center;
   align-items: center;
 
