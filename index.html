@@ -35,21 +35,20 @@
         <!-- main content /white paper -->
         <main>
             <h1>About me</h1>
-            <p>Hello. I am an ORISE postdoctoral fellow at USDA-ARS working on plant phenotyping using UAV images for 
+            <p>Hello. I am an ORISE postdoctoral fellow at USDA-ARS working with UAV images for 
                 maize plant phenotyping. I work with RGB and multispectral images to extract plant traits using computer
-                vision and machine learning techniques. I am also interested in developing robotic systems for 
+                vision and machine learning techniques. I also work on the development of robotic systems for 
                 agriculture and forestry applications.
                 
                 I completed my dual PhD in Engineering and Forestry from North Carolina State University in 2022. 
             </p>
 
-            <p> I have worked on high-throughput phenotyping of plants using digital images and 
-                on robotic systems for forestry applications. A large part of my work with digital images has been focused on 
+            <p> A large part of my work with plant images has been focused on 
                 the use of hyperspectral imaging to find optical signals of plant biotic and abiotic stress. At NC State, I 
                 developed a robotic pollination system for controlled pollination in loblolly pine seed orchards. 
             </p>
-            <p> On this page, you will find a brief description of my research projects with links for more information. Details on 
-                these projects are also accessible through my 
+            <p> On this page, you will find a brief description of my projects with links for more information. Details on 
+                many of these projects are also accessible through my 
                 <a href="publications.html">publications</a> page.
             </p>
         </main>
@@ -74,14 +73,14 @@
         <projectArea>
             <!-- 1 ------------------------------------------------------------------------------------------- -->
             <ProjectRowContainer>
-                <h1>Synthetic images for CNN model training (2023)</h1>
+                <h1>Synthetic UAV images for CNN model training (2023)</h1>
                 <projectRow>
                     <projectRowItem1>
                         <img class = "project_img" width="270"  src="project_descriptions/14_synthetic_images.png"> 
                     </projectRowItem1>
                     <projectRowItem2>
                         <p>
-                            The detection of individual plants within field images is critical for many applications in precision agriculture and research. Computer vision models for object detection, while often highly accurate, require large amounts of labeled data for training, something that is not readily available for most plants. To address the challenge of creating large datasets with accurate labels, we used indoor images of maize plants to create synthetic field images with automatically derived bounding box labels, enabling the generation of thousands of synthetic images without any manual labeling. Training an object detection model (Faster R-CNN) exclusively on synthetic images led to a mean average precision (mAP) value of 0.533 when the model was evaluated on pre-processed real plot images. When fine-tuned with a small number of real plot images, the model pre-trained on the synthetic images (mAP=0.884) outperformed the model that was not pre-trained.
+                            The detection of individual plants within UAV field images is critical for many applications in precision agriculture and research. Computer vision models for object detection, while often highly accurate, require large amounts of labeled data for training, something that is not readily available for most plants. To address the challenge of creating large datasets with accurate labels, we used indoor images of maize plants to create synthetic field images with automatically derived bounding box labels, enabling the generation of thousands of synthetic images without any manual labeling. Training an object detection model (Faster R-CNN) exclusively on synthetic images led to a mean average precision (mAP) value of 0.533 when the model was evaluated on pre-processed real plot images. When fine-tuned with a small number of real plot images, the model pre-trained on the synthetic images (mAP=0.884) outperformed the model that was not pre-trained.
                         </p>
                     </projectRowItem2>
                 </projectRow>
@@ -96,7 +95,7 @@
                     </projectRowItem1>
                     <projectRowItem2>
                         <p>
-                             This study investigated in situ hyperspectral imaging of hydroponic lettuce for predicting nutrient concentrations and identifying nutrient deficiencies for: nitrogen (N), phosphorous (P), potassium (K), calcium (Ca), magnesium (Mg), and {\color{red}{sulphur}} (S). Plants were imaged using a hyperspectral line scanner at six and eight weeks after transplanting, then plant tissue was sampled, and nutrient concentrations measured. Partial least squares regression (PLSR) models were developed to predict nutrient concentrations for each nutrient individually (PLS1) and for all six nutrient concentrations (PLS2). Several binary classification models were also developed to predict nutrient deficiencies. The PLS1 and PLS2 models predicted nutrient concentrations with R^2 values from 0.60-0.88 for N, P, K, and S, while results for Ca and Mg yielded R^2 values of 0.12-0.34, for both harvest dates. Similarly, plants deficient in N, P, K, and S were classified more accurately compared to plants deficient in Ca and Mg for both harvest dates, with F1 values (F-scores) ranging from 0.71 to 1.00, with the exception of K which had F1 scores of 0.40-0.67. Overall, results indicate that both leaf tissue nutrient concentration and nutrient deficiencies can be predicted using hyperspectral data collected in-vivo. 
+                             This study investigated in situ hyperspectral imaging of hydroponic lettuce for predicting nutrient concentrations and identifying nutrient deficiencies for: nitrogen (N), phosphorous (P), potassium (K), calcium (Ca), magnesium (Mg), and sulphur (S). Plants were imaged using a hyperspectral line scanner at six and eight weeks after transplanting, then plant tissue was sampled, and nutrient concentrations measured. Partial least squares regression (PLSR) models were developed to predict nutrient concentrations for each nutrient individually (PLS1) and for all six nutrient concentrations (PLS2). Several binary classification models were also developed to predict nutrient deficiencies. The PLS1 and PLS2 models predicted nutrient concentrations with R^2 values from 0.60-0.88 for N, P, K, and S, while results for Ca and Mg yielded R^2 values of 0.12-0.34, for both harvest dates. Similarly, plants deficient in N, P, K, and S were classified more accurately compared to plants deficient in Ca and Mg for both harvest dates, with F1 values (F-scores) ranging from 0.71 to 1.00, with the exception of K which had F1 scores of 0.40-0.67. Overall, results indicate that both leaf tissue nutrient concentration and nutrient deficiencies can be predicted using hyperspectral data collected in-vivo. 
                              </p>
                              A journal article reporting these findings can be accessed <a href="https://www.sciencedirect.com/science/article/pii/S1537511023001083?casa_token=8MKogMyWSPgAAAAA:6wBRJ5UEYiLxFDpHyD0JLI3no5EbjHP2696_fW5XqVB93JDNeirz5eDWVOuB-Zb7ElEAM-2J" target="_blank">here</a>.
                         </p>
